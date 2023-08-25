@@ -1,0 +1,176 @@
+/* mobile styles*/
+
+@media (max-width: 900px) {
+  body {
+    background-color: hsl(225, 100%, 94%);
+  }
+
+  .container {
+    width: 90vw;
+    margin: auto auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px hsl(225, 100%, 90%);
+    font-family: "https://fonts.google.com/specimen/Red+Hat+Display";
+  }
+
+  .container h2 {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+  }
+
+  .container p {
+    margin: auto auto;
+    width: 70%;
+    margin-bottom: 10%;
+    color: hsl(224, 23%, 55%);
+  }
+
+  .container img {
+    width: 90vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .container .group {
+    background-color: hsl(225, 100%, 96%);
+    width: 80%;
+    border-radius: 15px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .container .group .three-four .third {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+  }
+
+  .container .group .three-four .fourth {
+    color: hsl(224, 23%, 55%);
+  }
+
+  .container .group .fifth {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .container button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 4% 25%;
+    border-radius: 10px;
+    border: 0px solid;
+    box-shadow: 0px 20px 30px hsl(225, 100%, 94%);
+    font-weight: bold;
+  }
+
+  .container .button {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+  }
+
+  .container .last {
+    text-align: center;
+    padding-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+  }
+
+  .attribution {
+    margin: 100px auto;
+  }
+}
+
+
+
+/* desktop styles*/
+@media (min-width: 901px){
+
+    body{
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .container {
+        background-color: hsl(225, 100%, 98%);
+        width: 30%;
+        margin: 100px auto;
+        border-radius: 15px;
+
+    }
+
+    .container img {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .container h2{
+        text-align: center;
+    }
+
+    .container p{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    .container .group{
+        display: flex;
+        background-color: hsl(225, 100%, 96%);
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        width: 70%;
+        margin: 30px auto;
+        gap: 2rem;
+        border-radius: 10px;
+    }
+
+    .color-gray{
+        color: hsl(224, 23%, 55%);
+    }
+
+    .color-purple{
+        color: hsl(245, 75%, 52%);
+    }
+
+    .container .group .three-four .third{
+        font-weight: bold;
+        
+    }
+
+    .container .group .fifth{
+        font-weight: bold;
+        margin-inline-start: auto;
+        text-decoration: underline;
+        
+    }
+
+    .container button{
+        color: hsl(225, 100%, 98%);
+        background-color: hsl(245, 75%, 52%);
+        border-radius: 5px;
+        padding: 3% 15%;
+        border: 0px solid;
+        font-weight:bold;
+    }
+
+    .container .button{
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    .container .last{
+        text-align: center;
+        padding: 30px 0px;
+        font-weight: bold;
+    }
+
+    
+}
